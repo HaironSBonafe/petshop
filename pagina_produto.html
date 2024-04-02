@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a largura inicial e o escalamento do viewport do navegador -->
+    <title>pagina de compra</title> 
+    <link rel="stylesheet" href="styles_compra.css"> <!-- Link para o arquivo de estilos CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-
+    alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="blue-rectangle"> <!-- Define o retângulo azul -->
+        <a href="principal.html" class="blue-rectangle-text">GRRAUS</a> <!-- Define o texto GRRAUS com um link para a página principal -->
+        <form class="search-form"> <!-- Define o formulário de pesquisa -->
+            <a><input type="text" class="search-box" placeholder="O que seu pet precisa?">
+            <a><button type="submit">Buscar</button>
+            </a>
+        </form>
+        <a href="cadastro.html" class="blue-rectangle-link">Entre ou <p>cadastre-se</p></a> <!-- Define o texto para entrar ou se cadastrar com um link para a página de cadastro -->
+    </div>
+    <div class="container"> <!-- Define o container para o produto -->
+        <img src="produto1.jpg" alt="Produto 1 imagem" class="product-image"> <!-- Define a imagem do produto -->
+        <div class="product-info"> <!-- Define a seção de informações do produto -->
+            <div class="product-name">ração seca</div> <!-- Define o nome do produto -->
+            <div class="product-price">Preço: R$ 100,00</div> <!-- Define o preço do produto -->
+            <div class="product-description">Esta ração seca é ideal para cães adultos, proporcionando todos os nutrientes essenciais para uma dieta equilibrada. Feita com ingredientes naturais, sem aditivos ou conservantes, esta ração garante uma alimentação saudável e completa para seu pet. Com sabor delicioso, a ração seca normal ajuda a manter a saúde dentária, a saúde óssea e articular, e a saúde digestiva de seu animal de estimação.</div> <!-- Define a descrição do produto -->
+            <button type="button" class="product-button" onclick="addToCart()">Adicionar ao Carrinho</button> <!-- Define o botão para adicionar o produto ao carrinho -->
+        </div>
+    </div>
+</body>
+</html>
